@@ -1,0 +1,124 @@
+{
+	"fileName": "manifest",
+	"layer": "VENDOR",
+	"fileType": "appdescr_variant",
+	"reference": "ui.s2p.mm.extpr.manage.s1",
+	"id": "vwks.nlp.s2p.mm.prcentral.manage",
+	"namespace": "apps/ui.s2p.mm.extpr.manage.s1/appVariants/vwks.nlp.s2p.mm.prcentral.manage/",
+	"version": "1.0.0",
+	"content": [
+		{
+			"changeType": "appdescr_ui5_addLibraries",
+			"content": {
+				"libraries": {
+					"vwks.nlp.s2p.mm.reuse.lib": {
+				        "minVersion": "1.0.0",
+				        "lazy": false
+				    }
+				}
+			}
+		},
+		{
+			"changeType": "appdescr_app_addNewOutbound",
+			"content": {
+				"outbound": {
+					"PFO": {
+						"semanticObject": "ProcessFlow",
+            			"action": "overview"
+					}
+				}
+			}
+		},
+		{
+			"changeType": "appdescr_app_addNewOutbound",
+			"content": {
+				"outbound": {
+					"CreateHierarchyContract": {
+						"semanticObject": "CentralPurHierarchyContract",
+            			"action": "create"
+					}
+				}
+			}
+		},
+		{
+			"changeType": "appdescr_app_addNewOutbound",
+			"content": {
+				"outbound": {
+					"CreatePO": {
+						"semanticObject": "ProcurementHubPRItem",
+            			"action": "createPO"
+					}
+				}
+			}
+		},
+		{
+			"changeType": "appdescr_app_setTitle",
+			"content": {},
+			"texts": {
+				"i18n": "i18n/i18n.properties"
+			}
+		},
+		{
+			"changeType": "appdescr_ui5_addNewModelEnhanceWith",
+			"content": {
+				"modelId": "i18n|sap.suite.ui.generic.template.ListReport|C_ExtPurchaseRequisitionItem"
+			},
+			"texts": {
+				"i18n": "i18n/ListReport/C_ExtPurchaseRequisitionItem/i18n.properties"
+			}
+		},
+		{
+			"changeType": "appdescr_ui5_addNewModelEnhanceWith",
+			"content": {
+				"modelId": "i18n|sap.suite.ui.generic.template.ObjectPage|C_ExtPurchaseRequisitionItem"
+			},
+			"texts": {
+				"i18n": "i18n/ListReport/C_ExtPurchaseRequisitionItem/i18n.properties"
+			}
+		},
+		{
+			"changeType": "appdescr_ui5_addNewModelEnhanceWith",
+			"content": {
+				"modelId": "i18n|sap.suite.ui.generic.template.ObjectPage|C_ExtPurReqnAcctAssgmt"
+			},
+			"texts": {
+				"i18n": "i18n/ListReport/C_ExtPurReqnAcctAssgmt/i18n.properties"
+			}
+		},
+		{
+			"changeType": "appdescr_fiori_setRegistrationIds",
+			"content": {
+				"registrationIds": [
+					"F3290"
+				]
+			}
+		},
+		{
+			"changeType": "appdescr_app_setAch",
+			"content": {
+				"ach": "XX-PROJ-CDP-TEST-808"
+			}
+		},
+		{
+			"changeType": "appdescr_app_addNewDataSource",
+			"content": {
+				"dataSource": {
+				    "NLP_PR_TEXT_TMPLT_MANAGE_SRV": {
+				        "uri": "/sap/opu/odata/VWKS/NLP_PR_TEXT_TMPLT_MANAGE_SRV/",
+				        "type": "OData"
+				    }
+				}
+			}
+		},
+		{
+			"changeType": "appdescr_ui5_addNewModel",
+			"content": {
+				"model": {
+				    "TemplateModel": {
+				        "dataSource": "NLP_PR_TEXT_TMPLT_MANAGE_SRV"
+				    }
+				}
+			}
+		}
+	]
+}

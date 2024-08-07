@@ -1,0 +1,39 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:table="sap.ui.table">
+	<Dialog title="{i18n>DisplayReasonDialogTitle}" id="idDisplayReasonDialog" contentWidth="80%" >
+		<content>
+			<VBox id="idDisplayReasonVBox" >
+				<table:Table id="idDisplayReasonTable" rows="{DisplayReasonModel>/results}" width="auto" selectionMode="None" visibleRowCountMode="Auto">
+					<table:columns>
+						<table:Column id="idPurchaseRequisitionItemColumn" width="7rem">
+							<Label id="idPurchaseREquisitionLabel" text="{i18n>PurchaseRequisitionLabel}"/>
+							<table:template>
+								<Text id="idPurchaseREquisitionText" text="{DisplayReasonModel>PROCMTHUBPURCHASEREQUISITION}" wrapping="false"/>
+							</table:template>
+						</table:Column>
+						<table:Column id="idPurchaseRequisitionColumn" width="7rem">
+							<Label id="idPurchaseRequisitionLabel" text="{i18n>PurchaseRequisitionItemLabel}"/>
+							<table:template>
+								<Text id="idPurchaseRequisitionText" text="{DisplayReasonModel>PROCMTHUBPURREQUISITIONITEM}"/>
+							</table:template>
+						</table:Column>
+						<table:Column id="idActionNameColumn" width="15rem">
+							<Label id="idActionNameLabel" text="{i18n>ActionNameLabel}"/>
+							<table:template>
+								<Text id="idActionNameText" text="{DisplayReasonModel>ACTION_NAME}"/>
+							</table:template>
+						</table:Column>
+						<table:Column id="idDisplayReasonColumn" width="45rem">
+							<Label id="idDisplayReasonLabel" text="{i18n>DisplayReasonLabel}"/>
+							<table:template>
+								<Text id="idDisplayReasonText" text="{DisplayReasonModel>DISPLAY_REASON}"/>
+							</table:template>
+						</table:Column>
+					</table:columns>
+				</table:Table>
+			</VBox>
+		</content>
+		<beginButton>
+			<Button text="{i18n>CloseButton}" press="handleDisplayReasonDialogClose" id="idDialogButtonClose"/>
+		</beginButton>
+	</Dialog>
+</core:FragmentDefinition>

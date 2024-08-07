@@ -1,0 +1,13 @@
+<!-- Use stable and unique id's!-->
+<core:FragmentDefinition xmlns:core='sap.ui.core' xmlns="sap.m">
+	<HBox id="idSaveTemplateHBox" alignContent="SpaceBetween" alignItems="Center" justifyContent="SpaceBetween" width="100%">
+		<Label id="idTemplateLabel" class="sapUiSmallMarginBeginEnd" text="{i18n>Template}" labelFor="idTemplateName" required="true"/>
+		<Button id="idSaveTemplateButton" enabled="true" type="Transparent"
+			press=".extension.vwks.nlp.s2p.mm.prcentral.manage.ListReportExtController.onReassignSaveCommentTemplate" text="{i18n>SaveTemplateButton}"
+			class="sapUiSmallMarginBeginEnd"/>
+	</HBox>
+	<HBox id="idTemplateNameHBox" alignContent="SpaceBetween" alignItems="Center" justifyContent="SpaceBetween">
+		<Input id="idTemplateName" liveChange=".extension.vwks.nlp.s2p.mm.prcentral.manage.ListReportExtController.onTemplateInputLiveChange"
+			class="sapUiSmallMarginBeginEnd" width="100%"/>
+	</HBox>
+</core:FragmentDefinition>

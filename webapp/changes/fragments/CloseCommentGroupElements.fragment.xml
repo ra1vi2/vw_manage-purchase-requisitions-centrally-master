@@ -1,0 +1,8 @@
+<!-- Use stable and unique id's!-->
+<core:FragmentDefinition xmlns:core='sap.ui.core' xmlns="sap.m">
+	<HBox id="idHBoxforCloseAction" alignContent="SpaceBetween" alignItems="Center" justifyContent="SpaceBetween" width="100%">
+		<Label id="idCloseActionLabel" text="{i18n>CloseCommentLabel}" required="true" labelFor="idClosurComment" class="sapUiSmallMarginBegin "></Label>
+		<Button id="idUseTemplate" text=" {i18n>UseTemplateButton}"
+			press=".extension.vwks.nlp.s2p.mm.prcentral.manage.ListReportExtController.onClickUseTemplate" type="Transparent"/>
+	</HBox>
+</core:FragmentDefinition>

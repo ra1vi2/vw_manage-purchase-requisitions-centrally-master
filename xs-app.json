@@ -1,0 +1,45 @@
+{
+	"welcomeFile": "/",
+	"authenticationMethod": "none",
+	"routes": [
+		{
+			"source": "^/sap/bc/ui5_ui5",
+			"destination": "n1t100pp"
+		},
+		{
+			"source": "^/sap/bc/ui2/app_index",
+			"destination": "n1t100pp"
+		},
+		{
+			"source": "^/sap/opu/odata",
+			"destination": "n1t100pp"
+		},
+		{
+			"source": "^/sap/bc/lrep",
+			"destination": "n1t100pp"
+		},
+		{
+			"source": "^/resources",
+			"destination": "sapui5"
+		},
+		{
+			"source": "^/test-resources",
+			"destination": "sapui5"
+		},
+		{
+			"source": "^/webapp/(resources/.*)$",
+			"destination": "sapui5",
+			"target": "$1"
+		},
+		{
+			"source": "^/webapp/(test-resources/.*)$",
+			"destination": "sapui5",
+			"target": "$1"
+		},
+		{
+			"source": "^(.*)$",
+			"target": "$1",
+			"localDir": "./"
+		}
+	]
+}

@@ -1,0 +1,25 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:smartList="sap.ui.comp.smartlist">
+	<Dialog id="idCloseCommentActionDialog" contentWidth="50%" contentHeight="85%" class="sapUiSmallMargin"
+		title="{i18n>CommentTemplateListHeader}" draggable="true" showHeader="false" type="Standard">
+		<VBox id="idCloseVBox" class="sapUiSmallMargin">
+			<smartList:SmartList id="idTemplateSmartListClose" entitySet="xVWKSxNLP_PR_C_TEXT_TEMPLATE" header="{i18n>CommentTemplateListHeader}"
+				showRowCount="true" enableAutoBinding="true" beforeRebindList="onBeforeRebindTemplateListForClose">
+				<OverflowToolbar>
+					<ToolbarSpacer id="idTemplateToolbarSpacerForClose"/>
+					<SearchField liveChange="onCloseCommentTemplateSearch" width="auto"/>
+				</OverflowToolbar>
+				<List id="idTemplateListClose" itemPress="onCommentTemplateItemPress" enableBusyIndicator="true" growing="true">
+					<CustomListItem id="idCustomListItemForClose" type="Active">
+						<HBox justifyContent="SpaceBetween" alignContent="Center" alignItems="Center">
+							<ObjectIdentifier title="{template_name}" text="{text}" class="sapUiTinyMarginBegin"/>
+							<core:Icon src="sap-icon://delete" class="sapUiSmallMarginBegin sapUiSmallMarginTopBottom" press="onCommentTemplateDelete"/>
+						</HBox>
+					</CustomListItem>
+				</List>
+			</smartList:SmartList>
+		</VBox>
+		<buttons>
+			<Button id="idCancelTemplateButtonForClose" press="onCloseCancelCommentTemplate" text="{i18n>Cancel}"/>
+		</buttons>
+	</Dialog>
+</core:FragmentDefinition>

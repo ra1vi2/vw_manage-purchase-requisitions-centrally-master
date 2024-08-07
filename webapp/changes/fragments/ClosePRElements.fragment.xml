@@ -1,0 +1,7 @@
+<!-- Use stable and unique id's!-->
+<core:FragmentDefinition xmlns="sap.m" xmlns:core='sap.ui.core'>
+	<HBox id="idHBox" alignItems="Center" class="sapUiSmallMarginBegin">
+		<Label id="idInformRequestorLabel" text="{i18n>InformRequestorLabel}"></Label>
+		<CheckBox id="idInformRequestorCheckBox" selected="{MPRCSettingsModel>/checkInformRequestor}"></CheckBox>
+	</HBox>
+</core:FragmentDefinition>

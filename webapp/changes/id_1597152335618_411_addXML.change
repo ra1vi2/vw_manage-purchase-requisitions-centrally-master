@@ -1,0 +1,41 @@
+{
+	"fileName": "id_1597152335618_411_addXML",
+	"fileType": "change",
+	"changeType": "addXML",
+	"moduleName": "vwks/nlp/s2p/mm/prcentral/manage/changes/fragments/DocumentHistoryItem.fragment.xml",
+	"reference": "vwks.nlp.s2p.mm.prcentral.manage",
+	"packageName": "$TMP",
+	"content": {
+		"targetAggregation": "sections",
+		"index": 10,
+		"fragmentPath": "fragments/DocumentHistoryItem.fragment.xml"
+	},
+	"selector": {
+		"id": "ui.s2p.mm.extpr.manage.s1::sap.suite.ui.generic.template.ObjectPage.view.Details::C_ExtPurchaseRequisitionItem--objectPage",
+		"idIsLocal": false
+	},
+	"layer": "VENDOR",
+	"texts": {},
+	"namespace": "apps/ui.s2p.mm.extpr.manage.s1/appVariants/vwks.nlp.s2p.mm.prcentral.manage/changes/",
+	"projectId": "vwks.nlp.s2p.mm.prcentral.manage",
+	"creation": "2020-08-11T13:26:21.985Z",
+	"originalLanguage": "EN",
+	"support": {
+		"generator": "Change.createInitialFileContent",
+		"service": "",
+		"user": "",
+		"sapui5Version": "1.80.0",
+		"sourceChangeFileName": "",
+		"compositeCommand": ""
+	},
+	"oDataInformation": {},
+	"dependentSelector": {},
+	"validAppVersions": {
+		"creation": "1.0.0",
+		"from": "1.0.0",
+		"to": "1.0.0"
+	},
+	"jsOnly": false,
+	"variantReference": "",
+	"appDescriptorChange": false
+}

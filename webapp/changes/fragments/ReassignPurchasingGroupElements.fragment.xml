@@ -1,0 +1,13 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+	<!-- Material Group -->
+	<VBox id="idVbox" class="sapUiSmallMargin">
+		<Label id="idMatReassignLabel" class="sapUiSmallMarginBeginEnd sapUiSmallMarginBottom"
+			text="{i18n>MaterialGrpReassignInfo}"/>
+		<Label id="idMaterialGrpLabel" class="sapUiSmallMarginBeginEnd sapUiSmallMarginBottom" text="{i18n>MaterialGroup}"
+			labelFor="idTargetMaterialGrp" required="false"/>
+		<Input id="idTargetMaterialGrp"
+			valueHelpRequest=".extension.vwks.nlp.s2p.mm.prcentral.manage.ListReportExtController.onMaterialGrpValueHelpRequest" showValueHelp="true"
+			class="sapUiSmallMarginBeginEnd sapUiSmallMarginBottom" width="62.5%" valueHelpOnly="false" showTableSuggestionValueHelp="false"
+			enabled="{reassignPurGrpModel>/enableMaterialGroup}" value="{reassignPurGrpModel>/materialGroup}"/>
+	</VBox>
+</core:FragmentDefinition>

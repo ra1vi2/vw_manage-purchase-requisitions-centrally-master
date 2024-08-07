@@ -1,0 +1,11 @@
+{
+    "componentname": "ui.s2p.mm.extpr.manage.s1",
+    "safeMode": false,
+    "appvariant": "vwks.nlp.s2p.mm.prcentral.manage",
+    "layer": "VENDOR",
+    "sourceSystem": "n1t100pp",
+    "isOVPApp": false,
+    "isFioriElement": true,
+    "environment": "ABAP",
+    "ui5Version": "1.78.20"
+}

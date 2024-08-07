@@ -1,0 +1,34 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+	<Dialog id="idNotesDialog" title="{i18n>Notes}" contentWidth="75%">
+		<content>
+			<Table id="idNotesTable" items="{NotesModel>/}" noDataText="{i18n>NoData}">
+				<headerToolbar>
+					<OverflowToolbar id="idNotesTableOverflowToolbar">
+						<content>
+							<Title id="idNotesTableTitle" text="{i18n>NotesTableTitle}" level="H2"/>
+						</content>
+					</OverflowToolbar>
+				</headerToolbar>
+				<columns>
+					<Column id="idLongtextTypeColumn" width="20%">
+						<Text id="idLongtextTypeLabel" text="{i18n>Type}"/>
+					</Column>
+					<Column id="idLongtextDescColumn">
+						<Text id="idLongtextDescLabel" text="{i18n>Description}"/>
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem id="idColumnListItem">
+						<cells>
+							<Text id="idNotesDesc" text="{NotesModel>NtDescr}"/>
+							<Text id="idNotesContent" text="{NotesModel>Content}"/>
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</content>
+		<beginButton>
+			<Button id="idNotesDialogCloseButton" text="{i18n>CloseButton}" tooltip="{i18n>CloseButton}" press="handleNotesDialogClose"/>
+		</beginButton>
+	</Dialog>
+</core:FragmentDefinition>

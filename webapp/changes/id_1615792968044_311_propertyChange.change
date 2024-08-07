@@ -1,0 +1,41 @@
+{
+	"fileName": "id_1615792968044_311_propertyChange",
+	"fileType": "change",
+	"changeType": "propertyChange",
+	"moduleName": "",
+	"reference": "vwks.nlp.s2p.mm.prcentral.manage",
+	"packageName": "$TMP",
+	"content": {
+		"property": "required",
+		"newValue": true
+	},
+	"selector": {
+		"id": "idReassignComment",
+		"type": "sap.m.TextArea",
+		"idIsLocal": false
+	},
+	"layer": "VENDOR",
+	"texts": {},
+	"namespace": "apps/ui.s2p.mm.extpr.manage.s1/appVariants/vwks.nlp.s2p.mm.prcentral.manage/changes/",
+	"projectId": "vwks.nlp.s2p.mm.prcentral.manage",
+	"creation": "2021-03-15T07:23:06.535Z",
+	"originalLanguage": "EN",
+	"support": {
+		"generator": "Change.createInitialFileContent",
+		"service": "",
+		"user": "",
+		"sapui5Version": "1.78.0",
+		"sourceChangeFileName": "",
+		"compositeCommand": ""
+	},
+	"oDataInformation": {},
+	"dependentSelector": {},
+	"validAppVersions": {
+		"creation": "1.0.0",
+		"from": "1.0.0",
+		"to": "1.0.0"
+	},
+	"jsOnly": false,
+	"variantReference": "",
+	"appDescriptorChange": false
+}

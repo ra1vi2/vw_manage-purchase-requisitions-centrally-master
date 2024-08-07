@@ -1,0 +1,38 @@
+{
+	"fileName": "id_1597316993571_352_codeExt",
+	"fileType": "change",
+	"changeType": "codeExt",
+	"moduleName": "vwks/nlp/s2p/mm/prcentral/manage/changes/coding/ListReportExtController",
+	"reference": "vwks.nlp.s2p.mm.prcentral.manage",
+	"packageName": "$TMP",
+	"content": {
+		"codeRef": "coding/ListReportExtController.js"
+	},
+	"selector": {
+		"controllerName": "sap.suite.ui.generic.template.ListReport.view.ListReport"
+	},
+	"layer": "VENDOR",
+	"texts": {},
+	"namespace": "apps/ui.s2p.mm.extpr.manage.s1/appVariants/vwks.nlp.s2p.mm.prcentral.manage/changes/",
+	"projectId": "vwks.nlp.s2p.mm.prcentral.manage",
+	"creation": "2020-08-13T11:09:53.611Z",
+	"originalLanguage": "EN",
+	"support": {
+		"generator": "Change.createInitialFileContent",
+		"service": "",
+		"user": "",
+		"sapui5Version": "1.80.0",
+		"sourceChangeFileName": "",
+		"compositeCommand": ""
+	},
+	"oDataInformation": {},
+	"dependentSelector": {},
+	"validAppVersions": {
+		"creation": "1.0.0",
+		"from": "1.0.0",
+		"to": "1.0.0"
+	},
+	"jsOnly": false,
+	"variantReference": "",
+	"appDescriptorChange": false
+}

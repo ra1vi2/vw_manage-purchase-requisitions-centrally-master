@@ -1,0 +1,66 @@
+{
+	"fileName": "id_1614497476493_298_splitMenuButton",
+	"fileType": "change",
+	"changeType": "splitMenuButton",
+	"moduleName": "",
+	"reference": "vwks.nlp.s2p.mm.prcentral.manage",
+	"packageName": "$TMP",
+	"content": {
+		"sourceSelector": {
+			"id": "id-1555333844118-276",
+			"idIsLocal": true
+		},
+		"newElementIds": [{
+			"id": "ui.s2p.mm.extpr.manage.s1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_ExtPurchaseRequisitionItem--id-1614497476484-292",
+			"idIsLocal": false
+		}, {
+			"id": "ui.s2p.mm.extpr.manage.s1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_ExtPurchaseRequisitionItem--id-1614497476485-293",
+			"idIsLocal": false
+		}, {
+			"id": "ui.s2p.mm.extpr.manage.s1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_ExtPurchaseRequisitionItem--id-1614497476485-294",
+			"idIsLocal": false
+		}, {
+			"id": "ui.s2p.mm.extpr.manage.s1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_ExtPurchaseRequisitionItem--id-1614497476485-295",
+			"idIsLocal": false
+		}, {
+			"id": "ui.s2p.mm.extpr.manage.s1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_ExtPurchaseRequisitionItem--id-1614497476485-296",
+			"idIsLocal": false
+		}, {
+			"id": "ui.s2p.mm.extpr.manage.s1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_ExtPurchaseRequisitionItem--id-1614497476485-297",
+			"idIsLocal": false
+		}]
+	},
+	"selector": {
+		"id": "ui.s2p.mm.extpr.manage.s1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_ExtPurchaseRequisitionItem--template::ListReport::TableToolbar",
+		"idIsLocal": false
+	},
+	"layer": "VENDOR",
+	"texts": {},
+	"namespace": "apps/ui.s2p.mm.extpr.manage.s1/appVariants/vwks.nlp.s2p.mm.prcentral.manage/changes/",
+	"projectId": "vwks.nlp.s2p.mm.prcentral.manage",
+	"creation": "2021-02-28T07:32:15.008Z",
+	"originalLanguage": "EN",
+	"support": {
+		"generator": "Change.createInitialFileContent",
+		"service": "",
+		"user": "",
+		"sapui5Version": "1.78.9",
+		"sourceChangeFileName": "",
+		"compositeCommand": ""
+	},
+	"oDataInformation": {},
+	"dependentSelector": {
+		"sourceControl": {
+			"id": "id-1555333844118-276",
+			"idIsLocal": true
+		}
+	},
+	"validAppVersions": {
+		"creation": "1.0.0",
+		"from": "1.0.0",
+		"to": "1.0.0"
+	},
+	"jsOnly": false,
+	"variantReference": "",
+	"appDescriptorChange": false
+}

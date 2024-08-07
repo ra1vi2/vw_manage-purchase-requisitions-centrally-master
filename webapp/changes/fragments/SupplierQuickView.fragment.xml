@@ -1,0 +1,18 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+	<QuickView
+		id="quickView">
+		<QuickViewPage
+			pageId="quickViewPage"
+			header="{i18n>SupplierInfoPopover}"
+			icon="sap-icon://person-placeholder"
+			title="{supplier>/supplierName} ({supplier>/supplierNum})">
+			<QuickViewGroup elements="{ path: 'supplier>/data', templateShareable: true }">
+				<QuickViewGroupElement
+					label="{supplier>label}"
+					value="{supplier>value}"
+					url="{supplier>link}"
+					type="{supplier>type}" />
+			</QuickViewGroup>
+		</QuickViewPage>
+	</QuickView>
+</core:FragmentDefinition>

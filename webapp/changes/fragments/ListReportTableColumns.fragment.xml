@@ -1,0 +1,54 @@
+<!-- Use stable and unique id's!-->
+<core:FragmentDefinition xmlns:core='sap.ui.core' xmlns="sap.m">
+	<Column id="idDocHistoryCol">
+		<Text id="idDocumentHistoryColText" text="{i18n>DocumentHistoryLabel}" tooltip="{i18n>DocumentHistoryTooltip}"/>
+		<customData>
+			<core:CustomData id="idDocHistCustomData" key="p13nData"
+				value='\{"columnKey": "ProcmtHubPurchaseRequisition", "leadingProperty": "ProcmtHubPurchaseRequisition","columnIndex" : "1"}'/>
+		</customData>
+	</Column>
+	<Column id="idDeliveryStatusCol">
+		<Text id="idDeliveryStatusColText" text="{/#C_ExtPurchaseRequisitionItemType/xvwksxnlp_delv_stat/@sap:label}"/>
+		<customData>
+			<core:CustomData id="idDeliveryStatusDescriptionData" key="p13nData"
+				value='\{"columnKey": "xvwksxnlp_delv_stat", "leadingProperty": "xvwksxnlp_delv_stat","sortProperty": "xvwksxnlp_delv_stat","columnIndex" : "2", "additionalProperty":"DeliveryStatusText"}'/>
+		</customData>
+	</Column>
+	<Column id="idLocalAmountCol">
+		<Text id="idLocalAmountText" text="{i18n>LocalAmountLabel}"/>
+		<customData>
+			<core:CustomData id="idLocalAmountData" key="p13nData"
+				value='\{"columnKey": "LocalAmount", "leadingProperty": "LocalAmount","sortProperty": "LocalAmount","isCurrency": true,"columnIndex" : "3", "type":"numeric","unit":"LocalCurrency", "additionalProperty":"LocalCurrency"}'/>
+		</customData>
+	</Column>
+	<!--Notes-->
+	<Column id="idNotesCol">
+		<Text id="idNotesColText" text="{i18n>Notes}"/>
+		<customData>
+			<core:CustomData id="iNotesCustomData" key="p13nData" value='\{"columnKey": "Notes", "leadingProperty": "HasNote","columnIndex" : "4"}'/>
+		</customData>
+	</Column>
+	<!--Supplier Overall Status-->
+	<Column id="idOverallStatusColumn" importance="High">
+		<Text id="idOverallStatusColumnText" text="{/#C_ExtPurchaseRequisitionItemType/SupplierOverallStatus/@sap:label}"/>
+		<customData>
+			<core:CustomData id="idOverallStatusCustomData" key="p13nData"
+				value='\{ "columnKey": "SupplierOverallStatus", "leadingProperty":"SupplierOverallStatus", "columnIndex" : "6", "sortProperty" : "SupplierOverallStatus", "filterProperty" : "SupplierOverallStatus" }'/>
+		</customData>
+	</Column>
+	<!--Comment-->
+	<Column id="idCommentCol" importance="High">
+		<Text id="idCommentColText" text="{i18n>ItemComment}"/>
+		<customData>
+			<core:CustomData id="idCommentCustomData" key="p13nData" value='\{"columnKey": "Comment", "columnIndex" : "5"}'/>
+		</customData>
+	</Column>
+	<!--Supplier-->
+	<Column id="idSupplierCol" importance="High" width="8rem">
+		<Text id="idSupplierColText" text="{/#C_ExtPurchaseRequisitionItemType/ProcmtHubFixedSupplier/@sap:label}"/>
+		<customData>
+			<core:CustomData id="idSupplierCustomData" key="p13nData"
+				value='\{"columnKey": "ProcmtHubFixedSupplier", "leadingProperty":"ProcmtHubFixedSupplier", "columnIndex" : "7", "type":"string" \}'/>
+		</customData>
+	</Column>
+</core:FragmentDefinition>

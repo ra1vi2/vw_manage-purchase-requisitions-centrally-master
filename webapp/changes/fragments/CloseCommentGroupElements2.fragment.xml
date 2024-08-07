@@ -1,0 +1,13 @@
+<!-- Use stable and unique id's!-->
+<core:FragmentDefinition xmlns:core='sap.ui.core' xmlns="sap.m">
+	<HBox id="idSaveTemplateHBoxForClose" alignContent="SpaceBetween" alignItems="Center" justifyContent="SpaceBetween" width="100%">
+		<Label id="idLabelForSaveTemplate" text="{i18n>Template}" labelFor="idInputForCloseAction" class="sapUiSmallMarginBegin" required="true"/>
+		<Button id="idButtonForSaveTemplate" enabled="true" type="Transparent"
+			press=".extension.vwks.nlp.s2p.mm.prcentral.manage.ListReportExtController.onCloseSaveCommentTemplate" text="{i18n>SaveTemplateButton}"/>
+	</HBox>
+	<HBox id="idTemplateNameHBoxForClose" alignContent="SpaceBetween" alignItems="Center" justifyContent="SpaceBetween"
+		class="sapUiSmallMarginBegin">
+		<Input id="idInputForCloseAction" liveChange=".extension.vwks.nlp.s2p.mm.prcentral.manage.ListReportExtController.onTemplateInputLiveChange"
+			width="100%"/>
+	</HBox>
+</core:FragmentDefinition>

@@ -1,0 +1,11 @@
+<!-- Use stable and unique id's!-->
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns:smartform="sap.ui.comp.smartform" xmlns:smartfield="sap.ui.comp.smartfield">
+	<!--Comment-->
+	<smartform:GroupElement id="idCommentGroupElement">
+		<smartform:elements>
+			<smartfield:SmartField id="idCommentSmartField" value="{xvwksxnlp_comment}"/>
+			<core:Icon id="idCommentIcon" src="sap-icon://comment" tooltip="{i18n>CommentLabel}" width="3rem"
+				press=".extension.vwks.nlp.s2p.mm.prcentral.manage.ObjectPageExtController.handleCommentPress"/>
+		</smartform:elements>
+	</smartform:GroupElement>
+</core:FragmentDefinition>

@@ -1,0 +1,41 @@
+{
+	"fileName": "id_1606915623536_372_addXML",
+	"fileType": "change",
+	"changeType": "addXML",
+	"moduleName": "",
+	"reference": "vwks.nlp.s2p.mm.prcentral.manage",
+	"packageName": "$TMP",
+	"content": {
+		"targetAggregation": "content",
+		"index": 3,
+		"fragmentPath": "fragments/ChangeDisplayCurrency.fragment.xml"
+	},
+	"selector": {
+		"id": "ui.s2p.mm.extpr.manage.s1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_ExtPurchaseRequisitionItem--template::ListReport::TableToolbar",
+		"idIsLocal": false
+	},
+	"layer": "VENDOR",
+	"texts": {},
+	"namespace": "apps/ui.s2p.mm.extpr.manage.s1/appVariants/vwks.nlp.s2p.mm.prcentral.manage/changes/",
+	"projectId": "vwks.nlp.s2p.mm.prcentral.manage",
+	"creation": "2020-12-02T13:29:03.320Z",
+	"originalLanguage": "EN",
+	"support": {
+		"generator": "Change.createInitialFileContent",
+		"service": "",
+		"user": "",
+		"sapui5Version": "1.78.9",
+		"sourceChangeFileName": "",
+		"compositeCommand": ""
+	},
+	"oDataInformation": {},
+	"dependentSelector": {},
+	"validAppVersions": {
+		"creation": "1.0.0",
+		"from": "1.0.0",
+		"to": "1.0.0"
+	},
+	"jsOnly": true,
+	"variantReference": "",
+	"appDescriptorChange": false
+}

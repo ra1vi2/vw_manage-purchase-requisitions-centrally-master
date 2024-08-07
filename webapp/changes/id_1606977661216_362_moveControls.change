@@ -1,0 +1,75 @@
+{
+	"fileName": "id_1606977661216_362_moveControls",
+	"fileType": "change",
+	"changeType": "moveControls",
+	"moduleName": "",
+	"reference": "vwks.nlp.s2p.mm.prcentral.manage",
+	"packageName": "$TMP",
+	"content": {
+		"movedElements": [{
+			"selector": {
+				"id": "ui.s2p.mm.extpr.manage.s1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_ExtPurchaseRequisitionItem--vwks.nlp.s2p.mm.prcentral.manage.DisplayCurrencyBtn",
+				"idIsLocal": false
+			},
+			"sourceIndex": 3,
+			"targetIndex": 4
+		}],
+		"source": {
+			"selector": {
+				"aggregation": "content",
+				"type": "sap.m.OverflowToolbar",
+				"id": "ui.s2p.mm.extpr.manage.s1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_ExtPurchaseRequisitionItem--template::ListReport::TableToolbar",
+				"idIsLocal": false
+			}
+		},
+		"target": {
+			"selector": {
+				"aggregation": "content",
+				"type": "sap.m.OverflowToolbar",
+				"id": "ui.s2p.mm.extpr.manage.s1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_ExtPurchaseRequisitionItem--template::ListReport::TableToolbar",
+				"idIsLocal": false
+			}
+		}
+	},
+	"selector": {
+		"id": "ui.s2p.mm.extpr.manage.s1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_ExtPurchaseRequisitionItem--template::ListReport::TableToolbar",
+		"idIsLocal": false
+	},
+	"layer": "VENDOR",
+	"texts": {},
+	"namespace": "apps/ui.s2p.mm.extpr.manage.s1/appVariants/vwks.nlp.s2p.mm.prcentral.manage/changes/",
+	"projectId": "vwks.nlp.s2p.mm.prcentral.manage",
+	"creation": "2020-12-03T06:41:07.219Z",
+	"originalLanguage": "EN",
+	"support": {
+		"generator": "Change.createInitialFileContent",
+		"service": "",
+		"user": "",
+		"sapui5Version": "1.78.9",
+		"sourceChangeFileName": "",
+		"compositeCommand": ""
+	},
+	"oDataInformation": {},
+	"dependentSelector": {
+		"source": {
+			"id": "ui.s2p.mm.extpr.manage.s1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_ExtPurchaseRequisitionItem--template::ListReport::TableToolbar",
+			"idIsLocal": false
+		},
+		"target": {
+			"id": "ui.s2p.mm.extpr.manage.s1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_ExtPurchaseRequisitionItem--template::ListReport::TableToolbar",
+			"idIsLocal": false
+		},
+		"movedElements": [{
+			"id": "ui.s2p.mm.extpr.manage.s1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_ExtPurchaseRequisitionItem--vwks.nlp.s2p.mm.prcentral.manage.DisplayCurrencyBtn",
+			"idIsLocal": false
+		}]
+	},
+	"validAppVersions": {
+		"creation": "1.0.0",
+		"from": "1.0.0",
+		"to": "1.0.0"
+	},
+	"jsOnly": false,
+	"variantReference": "",
+	"appDescriptorChange": false
+}

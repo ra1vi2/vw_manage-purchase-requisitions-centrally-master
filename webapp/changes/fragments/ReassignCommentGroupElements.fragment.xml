@@ -1,0 +1,9 @@
+<!-- Use stable and unique id's!-->
+<core:FragmentDefinition xmlns:core='sap.ui.core' xmlns="sap.m">
+	<HBox id="idHBox" alignContent="SpaceBetween" alignItems="Center" justifyContent="SpaceBetween" width="100%">
+		<Label id="idReassignCommentLabel" class="sapUiSmallMarginBeginEnd" text="{i18n>ReassignCommentLabel}" required="true"
+			labelFor="idReassignComment"></Label>
+		<Button id="idUseTemplate" text="{i18n>UseTemplateButton}" class="sapUiSmallMarginBeginEnd"
+			press=".extension.vwks.nlp.s2p.mm.prcentral.manage.ListReportExtController.onReassignUseCommentTemplate" type="Transparent"/>
+	</HBox>
+</core:FragmentDefinition>

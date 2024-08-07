@@ -1,0 +1,47 @@
+{
+	"fileName": "id_1597305135145_358_addXML",
+	"fileType": "change",
+	"changeType": "addXML",
+	"moduleName": "vwks/nlp/s2p/mm/prcentral/manage/changes/fragments/ListReportTableCells.fragment.xml",
+	"reference": "vwks.nlp.s2p.mm.prcentral.manage",
+	"packageName": "$TMP",
+	"content": {
+		"boundAggregation": "items",
+		"targetAggregation": "cells",
+		"index": 20,
+		"fragmentPath": "fragments/ListReportTableCells.fragment.xml"
+	},
+	"selector": {
+		"id": "ui.s2p.mm.extpr.manage.s1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_ExtPurchaseRequisitionItem--responsiveTable",
+		"idIsLocal": false
+	},
+	"layer": "VENDOR",
+	"texts": {},
+	"namespace": "apps/ui.s2p.mm.extpr.manage.s1/appVariants/vwks.nlp.s2p.mm.prcentral.manage/changes/",
+	"projectId": "vwks.nlp.s2p.mm.prcentral.manage",
+	"creation": "2020-08-13T07:56:04.455Z",
+	"originalLanguage": "EN",
+	"support": {
+		"generator": "Change.createInitialFileContent",
+		"service": "",
+		"user": "",
+		"sapui5Version": "1.80.0",
+		"sourceChangeFileName": "",
+		"compositeCommand": ""
+	},
+	"oDataInformation": {},
+	"dependentSelector": {
+		"originalSelector": {
+			"id": "ui.s2p.mm.extpr.manage.s1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_ExtPurchaseRequisitionItem--template:::ListReportTable:::ColumnListItem",
+			"idIsLocal": false
+		}
+	},
+	"validAppVersions": {
+		"creation": "1.0.0",
+		"from": "1.0.0",
+		"to": "1.0.0"
+	},
+	"jsOnly": false,
+	"variantReference": "",
+	"appDescriptorChange": false
+}

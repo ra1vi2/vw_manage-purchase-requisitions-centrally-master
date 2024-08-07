@@ -1,0 +1,38 @@
+<!-- Use stable and unique id's!-->
+<core:FragmentDefinition xmlns:core='sap.ui.core' xmlns="sap.m">
+	<core:Icon id="idDocHistoryIcon" src="sap-icon://customer-history" tooltip="{i18n>DocumentHistoryTooltip}" size="1.25rem"
+		alt="{i18n>DocumentHistoryTooltip}" color="#346187"
+		press=".extension.vwks.nlp.s2p.mm.prcentral.manage.ListReportExtController.openDocumentHistoryDialog"></core:Icon>
+	<ObjectStatus id="idDeliveryStatus" class="sapUiSmallMarginBottom"
+		text="{path:'DeliveryStatusText', formatter: '.extension.vwks.nlp.s2p.mm.prcentral.manage.ListReportExtController.setDeliveryStatusText'}"
+		tooltip="{DeliveryStatusText}"
+		icon="{path:'xvwksxnlp_delv_stat', formatter: '.extension.vwks.nlp.s2p.mm.prcentral.manage.ListReportExtController.setDeliveryStatusIconFormatter'}"
+		state="{path:'xvwksxnlp_delv_stat', formatter: '.extension.vwks.nlp.s2p.mm.prcentral.manage.ListReportExtController.setDeliveryStateFormatter'}"/>
+	<Text id="idDisplayCurrencyAmount" text="{parts:[{path : 'LocalAmount'}, {path : 'LocalCurrency'}], type:'sap.ui.model.type.Currency'}"/>
+	<!--Notes-->
+	<Button id="idNotesButton" icon="sap-icon://notes" tooltip="{i18n>Notes}" width="2rem" type="Transparent"
+		press=".extension.vwks.nlp.s2p.mm.prcentral.manage.ListReportExtController.handleNotesButtonPress" enabled="{HasNote}"/>
+	<!--Supplier Overall Status-->
+	<HBox id="idContainerSupplierOverallStatus">
+		<core:Icon id="idSupplierOverallStatus" 
+			visible="{= !!${SupplierOverallStatus} }"
+			tooltip="{ path: 'SupplierOverallStatus', formatter: '.extension.vwks.nlp.s2p.mm.prcentral.manage.ListReportExtController.getSupplierOverallStatusTooltip' }"
+			src="{ path: 'SupplierOverallStatus', formatter: '.extension.vwks.nlp.s2p.mm.prcentral.manage.ListReportExtController.getSupplierOverallStatusIcon' }"
+			color="{ path: 'SupplierOverallStatus', formatter: '.extension.vwks.nlp.s2p.mm.prcentral.manage.ListReportExtController.getSupplierOverallStatusState' }"
+			press=".extension.vwks.nlp.s2p.mm.prcentral.manage.ListReportExtController.onSupplierOverallStatusPress"/>
+		<Text 
+			id="idNATextSupplierOverallStatus" 
+			visible="{= !${SupplierOverallStatus} }"
+			tooltip="{i18n>SSTLStatusNADesc}"
+			text="{i18n>SSTLStatusNA}"/>
+	</HBox>
+	<!--Comment-->
+	<core:Icon id="idComment" src="sap-icon://comment" tooltip="{i18n>CommentTooltip}"
+		press=".extension.vwks.nlp.s2p.mm.prcentral.manage.ListReportExtController.handleCommentPress"/>
+	<!--Supplier-->
+	<Link id="idSupplierLink"
+		visible="{= !!${ProcmtHubFixedSupplier} }"
+		text="{ProcmtHubFixedSupplier}" 
+		press=".extension.vwks.nlp.s2p.mm.prcentral.manage.ListReportExtController.onSupplierNamePress"/>
+	
+</core:FragmentDefinition>

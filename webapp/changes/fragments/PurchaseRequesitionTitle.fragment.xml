@@ -1,0 +1,14 @@
+<!-- Use stable and unique id's!-->
+<core:FragmentDefinition
+	xmlns:core='sap.ui.core'
+	xmlns="sap.m"
+	core:require="{formatMessage: 'sap/base/strings/formatMessage'}">
+	<Title 
+		id="idpurReqTitle" 
+		text="{
+		parts: [
+			'i18n>PurchaseRequisitionsTitle',
+			'purReqSettingsModel>/purchaseRequisitionsNumber'
+		],
+		formatter: 'formatMessage'}"/>
+</core:FragmentDefinition>

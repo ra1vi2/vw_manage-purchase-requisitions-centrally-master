@@ -1,0 +1,38 @@
+{
+	"fileName": "id_1597152739680_433_codeExt",
+	"fileType": "change",
+	"changeType": "codeExt",
+	"moduleName": "vwks/nlp/s2p/mm/prcentral/manage/changes/coding/ObjectPageExtController",
+	"reference": "vwks.nlp.s2p.mm.prcentral.manage",
+	"packageName": "$TMP",
+	"content": {
+		"codeRef": "coding/ObjectPageExtController.js"
+	},
+	"selector": {
+		"controllerName": "sap.suite.ui.generic.template.ObjectPage.view.Details"
+	},
+	"layer": "VENDOR",
+	"texts": {},
+	"namespace": "apps/ui.s2p.mm.extpr.manage.s1/appVariants/vwks.nlp.s2p.mm.prcentral.manage/changes/",
+	"projectId": "vwks.nlp.s2p.mm.prcentral.manage",
+	"creation": "2020-08-11T13:32:19.946Z",
+	"originalLanguage": "EN",
+	"support": {
+		"generator": "Change.createInitialFileContent",
+		"service": "",
+		"user": "",
+		"sapui5Version": "1.80.0",
+		"sourceChangeFileName": "",
+		"compositeCommand": ""
+	},
+	"oDataInformation": {},
+	"dependentSelector": {},
+	"validAppVersions": {
+		"creation": "1.0.0",
+		"from": "1.0.0",
+		"to": "1.0.0"
+	},
+	"jsOnly": false,
+	"variantReference": "",
+	"appDescriptorChange": false
+}

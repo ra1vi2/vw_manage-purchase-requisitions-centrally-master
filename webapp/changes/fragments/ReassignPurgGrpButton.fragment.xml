@@ -1,0 +1,4 @@
+<!-- Use stable and unique id's!-->
+<core:FragmentDefinition xmlns:core='sap.ui.core' xmlns="sap.m">
+	<Button id="idReasgnPRItemButton" enabled="true" type="Emphasized" press=".extension.vwks.nlp.s2p.mm.prcentral.manage.ListReportExtController.onReassign" text="{i18n>Reassign}" class="sapUiSmallMarginEnd"/>
+</core:FragmentDefinition>

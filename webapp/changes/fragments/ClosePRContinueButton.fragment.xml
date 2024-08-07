@@ -1,0 +1,8 @@
+<!-- Use stable and unique id's!-->
+<core:FragmentDefinition xmlns="sap.m" xmlns:core='sap.ui.core'>
+	<Button 
+		id="idClosePRContinue"
+		text="{i18n>Continue}" 
+		enabled="true" type="Emphasized"
+		press=".extension.vwks.nlp.s2p.mm.prcentral.manage.ListReportExtController.onClosePRContinue"></Button>
+</core:FragmentDefinition>

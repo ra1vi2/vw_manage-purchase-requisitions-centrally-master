@@ -1,0 +1,24 @@
+<!-- Use stable and unique id's!-->
+<core:FragmentDefinition xmlns:core='sap.ui.core' xmlns="sap.m" xmlns:smartform="sap.ui.comp.smartform">
+	<!--Supplier Overall Status-->
+	<smartform:GroupElement 
+		id="idSupplierOverallStatusTextGroupElement"
+		visible="{= !${SupplierOverallStatus} }" 
+		label="{i18n>SupplierOverallStatusLabel}">
+		<smartform:elements>
+			<Text id="idNATextSupplierOverallStatus" text="{i18n>SSTLStatusNA}" tooltip="{i18n>SSTLStatusNADesc}"/>
+		</smartform:elements>
+	</smartform:GroupElement>
+	<smartform:GroupElement 
+		id="idSupplierOverallStatusIconGroupElement"
+		visible="{= !!${SupplierOverallStatus} }"
+		label="{i18n>SupplierOverallStatusLabel}">
+		<smartform:elements>
+			<core:Icon id="idSupplierOverallStatus" width="1.25rem" 
+				tooltip="{ path: 'SupplierOverallStatus', formatter: '.extension.vwks.nlp.s2p.mm.prcentral.manage.ObjectPageExtController.getSupplierOverallStatusTooltip' }"
+				src="{ path: 'SupplierOverallStatus', formatter: '.extension.vwks.nlp.s2p.mm.prcentral.manage.ObjectPageExtController.getSupplierOverallStatusIcon' }"
+				color="{ path: 'SupplierOverallStatus', formatter: '.extension.vwks.nlp.s2p.mm.prcentral.manage.ObjectPageExtController.getSupplierOverallStatusState' }"
+				press=".extension.vwks.nlp.s2p.mm.prcentral.manage.ObjectPageExtController.onSupplierOverallStatusPress"/>
+		</smartform:elements>
+	</smartform:GroupElement>
+</core:FragmentDefinition>

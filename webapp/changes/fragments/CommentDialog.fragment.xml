@@ -1,0 +1,11 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+	<Dialog id="idCommentDialog" title="{i18n>CommentLabel}">
+		<TextArea id="idCommentTextArea" rows="4" cols="40"
+			maxLength="{path: '/#C_ExtPurchaseRequisitionItemType/xvwksxnlp_comment/@maxLength', formatter: 'parseInt'}" value="{xvwksxnlp_comment}"
+			showExceededText="true" valueLiveUpdate="true" liveChange="handleCommentLiveChange"/>
+		<buttons>
+			<Button id="idSaveCommentButton" type="Emphasized" press="onSaveComment" text="{i18n>Save}" enabled="{MPRCSettingsModel>/enableCommentSave}"/>
+			<Button id="idCancelCommentButton" press="onCancelComment" text="{i18n>Cancel}"/>
+		</buttons>
+	</Dialog>
+</core:FragmentDefinition>
